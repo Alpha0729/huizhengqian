@@ -1,0 +1,13 @@
+/*
+.teacher ul li:hover{
+
+}*/
+.teacher ul li{
+    border:1px solid #ddd;
+    border-radius: 0 0 8px 8px;
+    transition: all .3s;
+}
+.teacher ul li:hover{
+    box-shadow: 0px 8px 8px #eee;
+    -webkit-transform: scale(1);
+}

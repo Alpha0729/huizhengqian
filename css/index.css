@@ -1,0 +1,72 @@
+body{
+
+}
+.content{
+    margin: 15px 0;
+}
+.tab{
+    margin-top: 2px;
+}
+.tab img{
+    width: 100%;
+    height: 100%;
+}
+/*招聘*/
+.recruit ul li{
+
+}
+.recruit ul li img{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+}
+
+/*讲师介绍*/
+.teacher{
+    color:#000;
+}
+.teacher .teacher_title{
+
+}
+.teacher .layui-text{
+
+}
+.teacher ul{
+    margin: 10px 0 0 0;
+}
+
+.teacher ul li .teacher_box{
+    background-color: #d6d6d6;
+    padding:8px;
+    border-radius: 8px;
+}
+
+.teacher .teacher_content .teacher_img{
+    text-align: center;
+    padding:0 40px;
+}
+.teacher .teacher_content img{
+    border-radius:50%;
+}
+.teacher .teacher_content h2{
+    text-align: center;
+    padding: 10px 0;
+    color: #337ab7;
+}
+.teacher .teacher_content p{
+    text-indent:2em;
+}
+.trait .trait_content{
+    text-align: center;
+}
+.trait .trait_content li {
+
+    padding:0 30px;
+
+}
+.trait .trait_content li div h4{
+     font-size: 18px;
+ }
+.trait .trait_content li div p{
+    text-align: left;
+}
