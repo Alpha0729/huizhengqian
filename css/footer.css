@@ -2,7 +2,30 @@
 
 }
 .footer{
-    height: 30px;
-    line-height: 30px;
-    color:#fff;
+    padding: 10px 0;
+    color:#ddd;
+}
+.footer a{
+    color:#ddd;
+}
+.footer .footer_src li{
+   margin-top: 15px;
+}
+
+.footer .footer_code img{
+    width: 80px;
+    height: 80px;
+    margin-top: 6px;
+}
+.footer .layui-text{
+    color:#ddd;
+}
+.footer .icp{
+    margin-top: 20px;
+    font-size:12px ;
+    line-height: 14px;
+    padding: 5px;
+}
+.footer .icp a{
+    color:#ddd;
 }

@@ -1,3 +1,11 @@
+::selection {
+    background:#cf101c;
+    color:#fff;
+}
+.content{
+    margin: 15px 0;
+}
+
 .skin_bg{
     background-color: #393D49;
 }
@@ -32,6 +40,9 @@ iframe{
     background-color: #cf101c;
     height: 1px;
 }
+.hr2{
+    border-top:1px dotted #ccc;
+}
 .title_bg{
     background-color: #f4d4d4;
     border-radius: 8px 8px 0 0;
@@ -40,7 +51,9 @@ iframe{
 .color_cf{
     color:#cf101c;
 }
-
+.text_c{
+    text-align: center;
+}
 
 
 .layui-nav .layui-this:after, .layui-nav-bar, .layui-nav-tree .layui-nav-itemed:after{
@@ -67,7 +80,7 @@ iframe{
     -moz-border-radius: 50%;
     border-radius: 3px;
     -webkit-transition: all .3s;
-
+    display: none;
 }
 #top i{
     color:#fff;
@@ -78,3 +91,11 @@ iframe{
 #top:hover{
     background-color: #666;
 }
+a:hover{
+    text-decoration:underline;
+}
+.img_100{
+    width: 100px;
+}
+
+

@@ -1,17 +1,189 @@
 body{
 
 }
-.content{
-    margin: 15px 0;
+.content .banner_nav{
+    height: 700px;
+    background-position:100% 100%;
+
 }
-.tab{
+.content .banner_nav .banner_nav_li{
+    background: rgba(0,0,0,0.3);
+}
+.content .banner_nav .nav{
+    background: none;
+}
+.content .banner_nav .nav .logo{
+    float: left;
+    height: 60px;
+    margin-right: 20px;
+
+}
+.content .banner_nav .nav .logo img{
+
+    height: 40px;
+    padding: 10px;
+}
+.content .good{
+    padding: 20px 0;
+}
+.content .good .good_title {
+     text-align: center;
+
+}
+.content .good .good_title h2 i{
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-block;
+
+}
+.content .good .good_content{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content .good .good_content li{
+    margin-top: 20px;
+    padding: 20px 0;
+}
+.content .good .good_content li p{
+    padding: 10px 0;
+}
+/*公司简介*/
+.content .about{
+    background: #f9f9f9;
+    padding: 10px 0;
+}
+.content .about .about_left .about_left_btm{
+
+}
+.content .about .about_left p{
+    margin-top: 20px;
+    padding-right: 20px;
+}
+.content .about .about_right img{
+    width: 100%;
+    height: 100%;
+}
+/*证书*/
+.content .book{
+
+}
+.content .book .book_title h2{
+
+}
+.content .book .book_content h3 i{
+    color: #cf101c;
+}
+.content .book .book_content{
+    margin-top: -20px;
+}
+.content .book .book_content li{
+    margin-top: 60px;
+}
+.content .book .book_content li small{
+    background: #cf101c;
+    color:#fff;
+    padding: 3px 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.content .book .book_content p{
+    padding-right: 50px;
+}
+/*团队介绍*/
+.content .team{
+    margin-top: 30px;
+    background: #f9f9f9;
+    padding: 20px 0;
+}
+.content .team .team_tile p{
+    padding:20px 40px;
+}
+.content .team .team_body{
+    background: #eee;
+    margin-top: 10px;
+}
+.content .team .team_body .team_body_left{
+    padding: 40px 50px 40px 40px;
+}
+.content .team .team_body .team_body_left i{
+    font-size: 12px;
+    padding: 10px 0;
+    display: inline-block;
+    text-decoration: underline;
+}
+.content .team .team_body .team_body_left p{
+    margin-top: 30px;
+}
+.content .team .team_body img{
+    width: 100%;
+    height: 100%;
+}
+/*量化交易*/
+.content .course{
+    padding: 20px;
+}
+.content .course .course_title .layui-text{
+    padding: 20px 0;
+}
+.content .course .course_body ul li{
+    height: 264px;
+    overflow: hidden;
+}
+.content .course .course_body ul li img{
+    position: relative;
+}
+
+.content .course .course_body img{
+    width: 100%;
+}
+.content .course .course_body .course_body_content{
+    position: relative;
+    left:0;
+    top:-120px;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 0.3s;
+    padding: 10px 10px;
+    height: 100px;
+
+}
+.content .course .course_body .course_body_content h3{
+    padding: 10px 0;
+}
+.content .course .course_body .course_body_content p{
+    font-size: 12px;
+
+}
+
+/*公司展示*/
+.content .views{
+    background: #f9f9f9;
+    padding: 20px;
+}
+.content .views .views_title p{
+    padding: 20px 0;
+}
+.content .views .views_body{
+
+}
+.content .views .views_body img{
+    width: 100%;
+}
+
+
+
+
+/*.tab{
     margin-top: 2px;
 }
 .tab img{
     width: 100%;
     height: 100%;
 }
-/*招聘*/
+!*招聘*!
 .recruit ul li{
 
 }
@@ -21,7 +193,7 @@ body{
     height: 200px;
 }
 
-/*讲师介绍*/
+!*讲师介绍*!
 .teacher{
     color:#000;
 }
@@ -69,4 +241,4 @@ body{
  }
 .trait .trait_content li div p{
     text-align: left;
-}
+}*/

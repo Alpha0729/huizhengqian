@@ -1,0 +1,9 @@
+.content .banner{
+    text-align: center;
+    height: 480px;
+    overflow: hidden;
+}
+.content .banner img{
+    display: inline-block;
+    width: 100%;
+}
